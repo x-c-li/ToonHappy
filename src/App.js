@@ -1,13 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
     <div className="App">
+      <Navigation />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          EXAMPLE <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"

@@ -21,4 +21,37 @@
     font-weight: 600;
     color: white;
   }
+
+  .landing-descr {
+    background: #fcc32f;
+    width: 50%;
+    align-content: flex-start;
+    padding: 2em;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  .landing-s1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .landing-s2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #e1dbed;
+
+    font-weight: 600;
+    padding: 1em;
+  }
+
+  .landing-step3 {
+    height: 247px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

@@ -1,0 +1,24 @@
+.Landing {
+  .landing-header-light {
+    background-color: #e1dbed;
+    height: 55.53px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+  }
+
+  .landing-header-dark {
+    background-color: #460ee8;
+    height: 55.53px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+    color: white;
+  }
+}

@@ -3,6 +3,8 @@ import React from "react";
 import Hero from "./Hero";
 import "./Landing.scss";
 import step3 from "./imgs/step-3-connect.png";
+import storyScript from "./imgs/story-script.png";
+import artSample from "./imgs/webtoon-art-sample.png";
 
 function Landing() {
   return (
@@ -15,9 +17,20 @@ function Landing() {
           <Typography className="landing-header-light">
             Step 1: Upload your work.
           </Typography>
+
           <div className="landing-s1">
-            <p>Story/Script</p>
-            <p>Webtoon Art Sample</p>
+            <div className="landing-s1-imgs">
+              <div>
+                <p>Story/Script</p>
+                <img src={storyScript} className="landing-step1"></img>
+              </div>
+
+              <div>
+                <p>Webtoon Art Sample</p>
+                <img src={artSample} className="landing-step1"></img>
+              </div>
+            </div>
+
             <div className="landing-descr">
               <Typography>
                 Make your final edits to your story description and profile.
@@ -31,7 +44,7 @@ function Landing() {
         <div>
           <Typography className="landing-header-dark">For Writers</Typography>
           <div className="landing-s1">
-            <span className="landing-s2">Step 2: Track Submissions</span>
+            <div className="landing-s2">Step 2: Track Submissions</div>
             <Typography className="landing-descr">
               Community members can vote on their favorite art and also leave
               beta reader feedback on your story or script

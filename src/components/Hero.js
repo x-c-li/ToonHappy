@@ -14,11 +14,11 @@ function Hero() {
           Our platform connects writers, toon artists, and audiences to create
           the webtoons we love.
         </p>
-        <button className="hero-sign-up">
-          <h2>
-            <Link to="/signup">Sign Up Now!</Link>
-          </h2>
-        </button>
+        <h2>
+          <Link to="/signup" className="hero-sign-up">
+            Sign Up Now!
+          </Link>
+        </h2>
       </div>
     </div>
   );

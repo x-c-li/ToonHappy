@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.scss";
 import logo from "./imgs/logo.png";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -14,7 +15,9 @@ function Hero() {
           the webtoons we love.
         </p>
         <button className="hero-sign-up">
-          <h2>Sign Up Now!</h2>
+          <h2>
+            <Link to="/signup">Sign Up Now!</Link>
+          </h2>
         </button>
       </div>
     </div>

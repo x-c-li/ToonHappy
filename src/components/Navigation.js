@@ -21,8 +21,10 @@ function Navigation() {
         </li>
       </ul>
 
-      <button className="navbar-login" type="submit">
-        <Link to="/login">Login</Link>
+      <button className="navbar-login">
+        <Link to="/login" className="navbar-login">
+          Login
+        </Link>
       </button>
     </div>
   );

@@ -19,6 +19,9 @@ function Navigation() {
         <li>
           <Link to="/read">Read</Link>
         </li>
+        <li>
+          <Link to="/create">Create</Link>
+        </li>
       </ul>
 
       <button className="navbar-login">

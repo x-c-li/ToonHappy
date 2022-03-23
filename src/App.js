@@ -8,7 +8,7 @@ import Signup from "./components/SignUp";
 import Read from "./components/Read";
 import Stories from "./components/Stories";
 import ToonArt from "./components/ToonArt";
-
+import Create from "./components/Create";
 function App() {
   return (
     <Router>
@@ -21,6 +21,7 @@ function App() {
           <Route path="/read" element={<Read />} />
           <Route path="/stories" element={<Stories />}></Route>
           <Route path="/toonart" element={<ToonArt />}></Route>
+          <Route path="/create" element={<Create />}></Route>
         </Routes>
       </div>
     </Router>

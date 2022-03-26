@@ -44,7 +44,11 @@ function Landing() {
         <div>
           <Typography className="landing-header-dark">For Writers</Typography>
           <div className="landing-s1">
-            <div className="landing-s2">Step 2: Track Submissions</div>
+            <div>
+              <Typography className="landing-s2">
+                Step 2: Track Submissions
+              </Typography>
+            </div>
             <Typography className="landing-descr">
               Community members can vote on their favorite art and also leave
               beta reader feedback on your story or script
@@ -55,9 +59,11 @@ function Landing() {
         <div>
           <Typography className="landing-header-dark">For Artists</Typography>
           <div className="landing-s1">
-            <Typography className="landing-s2">
-              Step 2: Submit to Stories
-            </Typography>
+            <div>
+              <Typography className="landing-s2">
+                Step 2: Submit to stories
+              </Typography>
+            </div>
             <Typography className="landing-descr">
               Submit samples of your work to stories or upload samples to your
               artist profile

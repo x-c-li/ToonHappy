@@ -32,11 +32,13 @@ function Landing() {
             </div>
 
             <div className="landing-descr">
-              <Typography>
+              <Typography className="landing-descr-txt">
                 Make your final edits to your story description and profile.
                 Share your work for community input or your profile.
               </Typography>
-              <Typography>Hit Publish!</Typography>
+              <Typography className="landing-descr-txt">
+                Hit Publish!
+              </Typography>
             </div>
           </div>
         </div>
@@ -44,7 +46,7 @@ function Landing() {
         <div>
           <Typography className="landing-header-dark">For Writers</Typography>
           <div className="landing-s1">
-            <div>
+            <div className="step-2">
               <Typography className="landing-s2">
                 Step 2: Track Submissions
               </Typography>
@@ -59,7 +61,7 @@ function Landing() {
         <div>
           <Typography className="landing-header-dark">For Artists</Typography>
           <div className="landing-s1">
-            <div>
+            <div className="step-2">
               <Typography className="landing-s2">
                 Step 2: Submit to stories
               </Typography>

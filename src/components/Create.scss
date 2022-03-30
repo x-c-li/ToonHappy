@@ -5,10 +5,22 @@
   .page-title {
     font-size: 48px;
     font-weight: bold;
+    padding-top: 1em;
   }
 
   .button-options {
+    display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 2em;
+
+    .button-option-set {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
     .writer {
       background-color: #530ee8;
       color: white;
@@ -18,6 +30,8 @@
       padding: 15px 32px;
       border-radius: 12px;
       font-weight: bold;
+      cursor: pointer;
+      width: 350px;
     }
 
     .artist {
@@ -29,6 +43,13 @@
       padding: 15px 32px;
       border-radius: 12px;
       font-weight: bold;
+      cursor: pointer;
+      width: 350px;
+    }
+    .button-img {
+      padding-top: 1em;
+      width: 400px;
+      height: 400px;
     }
   }
 }

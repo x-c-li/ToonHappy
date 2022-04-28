@@ -1,5 +1,7 @@
 import React from "react";
 //import fake data from a js file
+import StoryList from "./StoryList";
+
 function Read() {
   return (
     <div className="Read">
@@ -17,6 +19,10 @@ function Read() {
       <div>Stories Art</div>
       <div> Drama Action Adventure Romance Slice of Life Comedy</div>
       <div>Stories Stories Stories Stories</div>
+
+      <div>
+        <StoryList />
+      </div>
     </div>
   );
 }

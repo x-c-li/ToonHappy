@@ -18,7 +18,7 @@ import story8 from "./imgs/story-ex-8.jpeg";
 function StoryList() {
   const stories = [
     {
-      image: story1,
+      image: noArt,
       title: "Gaming Love",
     },
     {
@@ -26,15 +26,15 @@ function StoryList() {
       title: "The Stars Between Us",
     },
     {
-      image: story2,
+      image: noArt,
       title: "I'm the Asshole",
     },
     {
-      image: story3,
+      image: noArt,
       title: "Call From The Beyond",
     },
     {
-      image: story4,
+      image: noArt,
       title: "At The Rising Sun",
     },
     {
@@ -42,11 +42,11 @@ function StoryList() {
       title: "Arranging My Funeral",
     },
     {
-      image: story5,
+      image: noArt,
       title: "My Perfect Heartbreak",
     },
     {
-      image: story6,
+      image: noArt,
       title: "Travelling In Your Memory",
     },
     {
@@ -54,11 +54,11 @@ function StoryList() {
       title: "Winning The Game",
     },
     {
-      image: story7,
+      image: noArt,
       title: "Coming Back From You",
     },
     {
-      image: story8,
+      image: noArt,
       title: "Fight Depression As A Furry",
     },
     {

@@ -1,4 +1,6 @@
 import React from "react";
+import "./StoryList.scss";
+
 import StoryListItem from "./StoryListItem";
 
 import noArt from "./imgs/no_art.png";
@@ -64,14 +66,16 @@ function StoryList() {
       title: "My Worst Enemy Confessed Their Love",
     },
   ];
+
   const item = stories.map((item) => {
     return (
-      <div className="StoryList">
+      <div>
         <StoryListItem image={item.image} title={item.title} />
       </div>
     );
   });
-  return <div>{item}</div>;
+
+  return <div className="StoryList">{item}</div>;
 }
 
 export default StoryList;

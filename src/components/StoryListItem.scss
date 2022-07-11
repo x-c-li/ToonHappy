@@ -9,10 +9,21 @@
   .story-cover {
     // border: red;
     width: 12em;
-    max-width: 400px;
+    width: 250px;
     height: 300px;
   }
   .story-cover:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+  .story-title {
+    padding: 0.5em 0em;
+    display: flex;
+    flex-direction: row;
+    // align-items: center;
+
+    max-width: 250px;
+
+    font-size: large;
   }
 }

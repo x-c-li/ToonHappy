@@ -6,7 +6,7 @@ function StoryListItem(props) {
   return (
     <div className="StoryListItem">
       <img src={props.image} className="story-cover"></img>
-      <Typography>{props.title}</Typography>
+      <div className="story-title">{props.title}</div>
     </div>
   );
 }

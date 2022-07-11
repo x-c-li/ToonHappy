@@ -1,11 +1,16 @@
 .StoryListItem {
   // background-color: red;
-  width: 10em;
+  // width: 500px;
+
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+
   .story-cover {
-    border: red;
-    width: 8em;
-    max-width: 100%;
-    height: auto;
+    // border: red;
+    width: 12em;
+    max-width: 400px;
+    height: 300px;
   }
   .story-cover:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);

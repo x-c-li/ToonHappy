@@ -1,7 +1,6 @@
 import React from "react";
 import "./StoryList.scss";
 import ReadListItem from "./ReadListItem";
-// import StoryListItem from "./StoryListItem";
 
 import story1 from "./imgs/story-ex-1.jpeg";
 import story2 from "./imgs/story-ex-2.jpeg";
@@ -19,7 +18,7 @@ import story13 from "./imgs/story-ex-13.jpeg";
 
 //fake data
 
-function StoryList() {
+function ReadList() {
   const stories = [
     {
       image: story1,
@@ -86,4 +85,4 @@ function StoryList() {
   return <div className="StoryList">{item}</div>;
 }
 
-export default StoryList;
+export default ReadList;

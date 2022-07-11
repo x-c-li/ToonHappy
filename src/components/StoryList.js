@@ -4,14 +4,14 @@ import "./StoryList.scss";
 import StoryListItem from "./StoryListItem";
 
 import noArt from "./imgs/no_art.png";
-import story1 from "./imgs/story-ex-1.jpeg";
-import story2 from "./imgs/story-ex-2.jpeg";
-import story3 from "./imgs/story-ex-3.jpeg";
-import story4 from "./imgs/story-ex-4.jpeg";
-import story5 from "./imgs/story-ex-5.jpeg";
-import story6 from "./imgs/story-ex-6.jpeg";
-import story7 from "./imgs/story-ex-7.jpeg";
-import story8 from "./imgs/story-ex-8.jpeg";
+// import story1 from "./imgs/story-ex-1.jpeg";
+// import story2 from "./imgs/story-ex-2.jpeg";
+// import story3 from "./imgs/story-ex-3.jpeg";
+// import story4 from "./imgs/story-ex-4.jpeg";
+// import story5 from "./imgs/story-ex-5.jpeg";
+// import story6 from "./imgs/story-ex-6.jpeg";
+// import story7 from "./imgs/story-ex-7.jpeg";
+// import story8 from "./imgs/story-ex-8.jpeg";
 
 //fake data
 

@@ -1,5 +1,5 @@
 import React from "react";
-import ReadList from "ReadList.js";
+import ReadList from "./ReadList.js";
 
 function Read() {
   return (
